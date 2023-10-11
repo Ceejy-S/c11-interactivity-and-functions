@@ -1,0 +1,14 @@
+#calc {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 50%;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+}
