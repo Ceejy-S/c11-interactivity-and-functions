@@ -1,7 +1,18 @@
 #calc {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 100px);
   width: 50%;
+}
+
+input {
+  width: 300px;
+  font-size: 55px;
+  font-weight: 400;
+  color: #390505;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #390505;
+  border-radius: 1rem;
 }
 
 button {
